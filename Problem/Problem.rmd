@@ -33,3 +33,12 @@ It appears that the average number of years of educations is the same.
 favstats(EDUC~VOTE12,data=Ourdata)
 ```
 
+
+## Inferenal Test
+```{r}
+t.test(EDUC~VOTE12,data=Ourdata)
+```
+
+## Conclusion
+The p-value from the t-test is 0.004, this is less than 0.05, so we reject the null hypothesis.
+ So we conclude we have edvidence to prove that there is a different in the years of education for those who voted in 2012.   
