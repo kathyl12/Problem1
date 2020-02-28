@@ -24,4 +24,12 @@ plot(EDUC~VOTE12,data=Ourdata)
 ```
 
 
-It appears that the average number of years of educations is the same.   
+It appears that the average number of years of educations is the same. 
+
+
+
+## Numerical Summary 
+```{r}
+favstats(EDUC~VOTE12,data=Ourdata)
+```
+
